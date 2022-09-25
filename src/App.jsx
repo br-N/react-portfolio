@@ -10,13 +10,8 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
 function App() {
-
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline bg-slate-400 p-6">
-        Hello world!
-      </h1>
-      <Router>
+    <Router>
       <Navbar />
       <Container>
         <Routes>
@@ -28,8 +23,7 @@ function App() {
       </Container>
       <Footer />
     </Router>
-    </div>
-  )
+  );
 }
 
-export default App
+export default App;
