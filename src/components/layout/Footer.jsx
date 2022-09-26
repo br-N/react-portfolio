@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="flex flex-col items-center justify-center p-2 bg-slate-200">
+    <footer className="flex flex-col items-center justify-center p-2">
       <p>
         Developed by <span className="font-bold">Breno Lambertini</span> &copy;
         2022
