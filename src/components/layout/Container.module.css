@@ -1,3 +1,8 @@
 .container {
   @apply flex justify-between my-0 mx-auto w-[1200px] flex-wrap;
+  border: 1px solid red;
+}
+
+.navbar {
+  @apply justify-end;
 }

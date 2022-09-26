@@ -10,9 +10,7 @@ function Home() {
       </div>
       <div className="p-2">
         <span className="font-bold text-xl">Hi there!</span>
-        <p className="text-xl">
-          I'm a dumb programmer and I'm looking for a job.
-        </p>
+        <p className="text-xl">I'm a programmer looking for a job.</p>
       </div>
     </section>
   );

@@ -4,9 +4,9 @@ import Container from "./Container";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between p-4 bg-slate-400">
-      <Container>
-        <ul className="flex items-center">
+    <nav className="p-4 bg-slate-400">
+      <Container customClass="navbar">
+        <ul className="flex">
           <li className="mr-4">
             <Link to="/">Home</Link>
           </li>
