@@ -9,10 +9,17 @@ function Footer() {
       </p>
       <ul className="flex mt-2">
         <li className="mr-4">
-          <FaLinkedin size={20} />
+          <a
+            href="https://www.linkedin.com/in/brenolambertini/"
+            target="_blank"
+          >
+            <FaLinkedin size={20} />
+          </a>
         </li>
         <li>
-          <FaGithub size={20} />
+          <a href="https://github.com/br-N/" target="_blank">
+            <FaGithub size={20} />
+          </a>
         </li>
       </ul>
     </footer>
