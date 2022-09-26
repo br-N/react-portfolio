@@ -1,8 +1,9 @@
 function About() {
   return (
-    <section className="flex items-center justify-center p-4">
+    <section className="flex flex-col items-center justify-center p-4">
+      <span className="font-bold text-xl">About me</span>
+
       <div className="p-2">
-        <span className="font-bold text-xl">About me</span>
         <p className="text-xl">
           I studied Bachelor's Degree in Interdisciplinary Science and
           Technology with emphasis in Computer Science at{" "}
@@ -12,6 +13,7 @@ function About() {
           Furthermore, I was Scientific Initiation Scholarship (InterSCity USP).
         </p>
       </div>
+
       <div className="p-2">
         <img
           className="rounded"
