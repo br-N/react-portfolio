@@ -5,7 +5,10 @@ import Container from "./Container";
 function Navbar() {
   return (
     <nav className="p-4 bg-slate-400">
-      <Container customClass="navbar">
+      <Container>
+        <div className="flex font-[Cinzel, serif]">
+          <p>Breno Lambertini</p>
+        </div>
         <ul className="flex">
           <li className="mr-4">
             <Link to="/">Home</Link>

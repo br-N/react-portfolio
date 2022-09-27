@@ -1,3 +1,5 @@
+import unifesp_logo from "../../img/unifesp.jpg";
+
 function About() {
   return (
     <section className="flex flex-col items-center justify-center p-4">
@@ -15,11 +17,7 @@ function About() {
       </div>
 
       <div className="p-2">
-        <img
-          className="rounded"
-          src="https://www.unifesp.br/reitoria/dci/images/ICTPatec_1.jpg"
-          alt="Breno Lambertini"
-        />
+        <img className="rounded" src={unifesp_logo} alt="Breno Lambertini" />
       </div>
     </section>
   );
