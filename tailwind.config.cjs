@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        maven: ["Maven Pro", "sans-serif"],
+        cinzel: ["Cinzel", "serif"],
+      },
+    },
   },
   plugins: [],
 };

@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="p-4 bg-slate-400">
       <Container>
-        <div className="flex font-[Cinzel, serif]">
+        <div className="font-cinzel font-extrabold text-xl">
           <p>Breno Lambertini</p>
         </div>
         <ul className="flex">

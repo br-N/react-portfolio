@@ -2,17 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Maven Pro", sans-serif;
-  /*font-family: "Cinzel", serif;*/
-}
-
-html,
-body,
-#root {
-  background-color: #efefef;
-  /*height: 100%;*/
+@layer base {
+  html {
+    @apply p-0 m-0 box-border font-maven bg-[#efefef];
+  }
 }
