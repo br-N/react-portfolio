@@ -8,6 +8,13 @@ module.exports = {
         cinzel: ["Cinzel", "serif"],
       },
     },
+    colors: {
+      bg: "#121619",
+      blue: "#12495f",
+      salmon: "#ec6161",
+      yellow: "#f1ce73",
+      white: "#f8efe8",
+    },
   },
   plugins: [],
 };

@@ -4,7 +4,7 @@ import Container from "./Container";
 
 function Navbar() {
   return (
-    <nav className="p-4 bg-slate-400">
+    <nav className="p-4">
       <Container>
         <div className="font-cinzel font-extrabold text-xl">
           <p>Breno Lambertini</p>
