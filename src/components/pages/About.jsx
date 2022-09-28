@@ -56,11 +56,6 @@ function About() {
                 alt="foundation"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
               />
-              <img
-                className="p-1 m-2 h-24 bg-salmon rounded"
-                alt="figma"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-              />
             </div>
           </div>
 
@@ -103,6 +98,27 @@ function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
               />
             </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col mt-8 p-2 bg-blue rounded">
+          <p className="text-center text-xl font-bold">Tools</p>
+          <div className="flex flex-wrap">
+            <img
+              className="p-1 m-2 h-24 bg-salmon rounded"
+              alt="git"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+            />
+            <img
+              className="p-1 m-2 h-24 bg-salmon rounded"
+              alt="docker"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+            />
+            <img
+              className="p-1 m-2 h-24 bg-salmon rounded"
+              alt="figma"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            />
           </div>
         </div>
       </div>
