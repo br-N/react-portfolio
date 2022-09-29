@@ -1,29 +1,42 @@
-import unifesp_logo from "../../img/unifesp.jpg";
+import unifesp_logo from "../../img/unifesp.png";
 
 function About() {
   return (
-    <section className="flex flex-col items-center justify-center p-4">
-      <div className="my-4">
-        <span className="font-bold text-xl">About me</span>
-        <p className="text-xl">
-          I studied Bachelor's Degree in Interdisciplinary Science and
-          Technology with emphasis in Computer Science at{" "}
-          <span className="font-bold">UNIFESP</span>, Federal University of São
-          Paulo.
-          <br />
-          Furthermore, I was Scientific Initiation Scholarship (InterSCity USP).
-        </p>
-        <img
-          className="h-48 rounded"
-          alt="Breno Lambertini"
-          src={unifesp_logo}
-        />
+    <section className="flex flex-col p-4">
+      <h2 className="my-4 text-center text-white font-bold text-[40px] underline">
+        About me
+      </h2>
+
+      <div className="my-8 bg-blue">
+        <h3 className="text-left text-white mb-6 text-[40px]">1. UNIVERSITY</h3>
+
+        <div className="flex">
+          <ul className="ml-1 w-[65%]">
+            <li className="text-center mb-6 text-[32px] font-bold">
+              Federal University of São Paulo
+            </li>
+            <li className="text-[26px] mb-3">
+              - Bachelor's Degree in Interdisciplinary Science and Technology
+            </li>
+            <li className="text-[26px] mb-3">
+              - With emphasis in Computer Science
+            </li>
+            <li className="text-[26px]">
+              - Scientific Initiation Scholarship (at USP)
+            </li>
+          </ul>
+
+          <div className="ml-2 p-3 bg-white rounded">
+            <img className="h-48 rounded" alt="Unifesp" src={unifesp_logo} />
+          </div>
+        </div>
       </div>
 
-      <div className="my-4">
-        <p className="text-center mb-8 text-[40px]">MY SKILLS</p>
-        <div className="flex flex-row">
-          <div className="flex flex-col mr-4 p-2 w-[396px] bg-blue rounded">
+      <div className="my-8">
+        <h3 className="text-left text-white mb-6 text-[40px]">2. MY SKILLS</h3>
+
+        <div className="flex bg-blue">
+          <div className="flex flex-col p-1 w-[387px]">
             <p className="text-center text-xl font-bold">Front-end</p>
             <div className="flex flex-wrap">
               <img
@@ -59,7 +72,7 @@ function About() {
             </div>
           </div>
 
-          <div className="flex flex-col ml-4 p-2 w-[396px] bg-blue rounded">
+          <div className="flex flex-col p-1 w-[387px]">
             <p className="text-center text-xl font-bold">Back-end</p>
             <div className="flex flex-wrap">
               <img
@@ -99,26 +112,26 @@ function About() {
               />
             </div>
           </div>
-        </div>
 
-        <div className="flex flex-col mt-8 p-2 bg-blue rounded">
-          <p className="text-center text-xl font-bold">Tools</p>
-          <div className="flex flex-wrap">
-            <img
-              className="p-1 m-2 h-24 bg-salmon rounded"
-              alt="git"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
-            />
-            <img
-              className="p-1 m-2 h-24 bg-salmon rounded"
-              alt="docker"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
-            />
-            <img
-              className="p-1 m-2 h-24 bg-salmon rounded"
-              alt="figma"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-            />
+          <div className="flex flex-col p-1 w-[387px]">
+            <p className="text-center text-xl font-bold">Tools</p>
+            <div className="flex flex-wrap">
+              <img
+                className="p-1 m-2 h-24 bg-salmon rounded"
+                alt="git"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+              />
+              <img
+                className="p-1 m-2 h-24 bg-salmon rounded"
+                alt="docker"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+              />
+              <img
+                className="p-1 m-2 h-24 bg-salmon rounded"
+                alt="figma"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              />
+            </div>
           </div>
         </div>
       </div>
