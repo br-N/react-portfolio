@@ -1,33 +1,68 @@
-import unifesp_logo from "../../img/unifesp.png";
+import unifesp_logo from "../../img/unifesp_logo.png";
+import unifesp_campus from "../../img/unifesp_campus.jpg";
 
 function About() {
   return (
     <section className="flex flex-col p-4">
-      <h2 className="my-4 text-center text-white font-bold text-[40px] underline">
+      <h2 className="text-center text-white font-bold text-[40px] underline">
         About me
       </h2>
 
-      <div className="my-8 bg-blue">
+      <div className="my-8">
         <h3 className="text-left text-white mb-6 text-[40px]">1. UNIVERSITY</h3>
 
         <div className="flex">
           <ul className="ml-1 w-[65%]">
-            <li className="text-center mb-6 text-[32px] font-bold">
+            <li className="text-center m-2 text-[30px] font-bold">
               Federal University of São Paulo
             </li>
-            <li className="text-[26px] mb-3">
+            <li className="text-[20px] mb-4">
               - Bachelor's Degree in Interdisciplinary Science and Technology
             </li>
-            <li className="text-[26px] mb-3">
+            <li className="text-[20px] mb-4">
               - With emphasis in Computer Science
             </li>
-            <li className="text-[26px]">
+            <li className="text-[20px]">
               - Scientific Initiation Scholarship (at USP)
             </li>
           </ul>
 
           <div className="ml-2 p-3 bg-white rounded">
-            <img className="h-48 rounded" alt="Unifesp" src={unifesp_logo} />
+            <img
+              className="h-36 rounded"
+              alt="Unifesp Logo"
+              src={unifesp_logo}
+            />
+          </div>
+        </div>
+
+        <div className="flex p-8">
+          <div className="w-[46%]">
+            <img
+              className="h-72 rounded"
+              alt="Unifesp Campus"
+              src={unifesp_campus}
+            />
+            <p className="text-center">Campus São José dos Campos</p>
+          </div>
+          <div className="ml-2 pl-8">
+            <p className="text-bold text-[30px]">SOME SUBJECTS I TOOK: </p>
+            <ul className="pl-8 pt-4">
+              <li className="text-[20px]">
+                - Data Structures and Algorithms I & II
+              </li>
+              <li className="text-[20px]">- Object-oriented programming</li>
+              <li className="text-[20px]">
+                - Design and Analysis of Algorithms
+              </li>
+              <li className="text-[20px]">- Computer graphics</li>
+              <li className="text-[20px]">- Artificial Intelligence</li>
+              <li className="text-[20px]">- Computational Modeling</li>
+              <li className="text-[20px]">- Calculus I, II, III & IV</li>
+              <li className="text-[20px]">- Physics I, II & III</li>
+              <li className="text-[20px]">- Electric Circuits I & II</li>
+              <li className="text-[20px]">- Microeconomics</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -35,7 +70,7 @@ function About() {
       <div className="my-8">
         <h3 className="text-left text-white mb-6 text-[40px]">2. MY SKILLS</h3>
 
-        <div className="flex bg-blue">
+        <div className="flex">
           <div className="flex flex-col p-1 w-[387px]">
             <p className="text-center text-xl font-bold">Front-end</p>
             <div className="flex flex-wrap">
