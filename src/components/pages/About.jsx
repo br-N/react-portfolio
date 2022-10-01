@@ -3,51 +3,45 @@ import unifesp_campus from "../../img/unifesp_campus.jpg";
 
 function About() {
   return (
-    <section className="flex flex-col p-4">
-      <h2 className="text-center text-white font-bold text-[40px] underline">
-        About me
-      </h2>
+    <section className="flex flex-col">
+      <div className="flex flex-col">
+        <h3 className="text-[40px]">1. UNIVERSITY</h3>
 
-      <div className="my-8">
-        <h3 className="text-left text-white mb-6 text-[40px]">1. UNIVERSITY</h3>
-
-        <div className="flex">
-          <ul className="ml-1 w-[65%]">
-            <li className="text-center m-2 text-[30px] font-bold">
-              Federal University of São Paulo
-            </li>
-            <li className="text-[20px] mb-4">
-              - Bachelor's Degree in Interdisciplinary Science and Technology
-            </li>
-            <li className="text-[20px] mb-4">
-              - With emphasis in Computer Science
-            </li>
-            <li className="text-[20px]">
-              - Scientific Initiation Scholarship (at USP)
-            </li>
-          </ul>
-
-          <div className="ml-2 p-3 bg-white rounded">
+        <div className="flex flex-wrap">
+          <div className="bg-white rounded">
             <img
               className="h-36 rounded"
               alt="Unifesp Logo"
               src={unifesp_logo}
             />
           </div>
+
+          <ul className="">
+            <li className="text-center text-[30px] font-bold">
+              Federal University of São Paulo
+            </li>
+            <li className="text-[20px]">
+              - Bachelor's Degree in Interdisciplinary Science and Technology
+            </li>
+            <li className="text-[20px]">- With emphasis in Computer Science</li>
+            <li className="text-[20px]">
+              - Scientific Initiation Scholarship (at USP)
+            </li>
+          </ul>
         </div>
 
-        <div className="flex p-8">
-          <div className="w-[46%]">
+        <div className="flex flex-wrap">
+          <div>
             <img
-              className="h-72 rounded"
+              className="rounded"
               alt="Unifesp Campus"
               src={unifesp_campus}
             />
             <p className="text-center">Campus São José dos Campos</p>
           </div>
-          <div className="ml-2 pl-8">
+          <div className="">
             <p className="text-bold text-[30px]">SOME SUBJECTS I TOOK: </p>
-            <ul className="pl-8 pt-4">
+            <ul className="">
               <li className="text-[20px]">
                 - Data Structures and Algorithms I & II
               </li>
@@ -67,12 +61,12 @@ function About() {
         </div>
       </div>
 
-      <div className="my-8">
-        <h3 className="text-left text-white mb-6 text-[40px]">2. MY SKILLS</h3>
+      <div className="">
+        <h3 className="text-[40px]">2. MY SKILLS</h3>
 
-        <div className="flex">
-          <div className="flex flex-col p-1 w-[387px]">
-            <p className="text-center text-xl font-bold">Front-end</p>
+        <div className="flex flex-col">
+          <div className="flex flex-col">
+            <p className="text-xl font-bold">Front-end</p>
             <div className="flex flex-wrap">
               <img
                 className="p-1 m-2 h-24 bg-salmon rounded"
@@ -107,8 +101,8 @@ function About() {
             </div>
           </div>
 
-          <div className="flex flex-col p-1 w-[387px]">
-            <p className="text-center text-xl font-bold">Back-end</p>
+          <div className="flex flex-col">
+            <p className="text-xl font-bold">Back-end</p>
             <div className="flex flex-wrap">
               <img
                 className="p-1 m-2 h-24 bg-salmon rounded"
@@ -148,8 +142,8 @@ function About() {
             </div>
           </div>
 
-          <div className="flex flex-col p-1 w-[387px]">
-            <p className="text-center text-xl font-bold">Tools</p>
+          <div className="flex flex-col p-1">
+            <p className="text-xl font-bold">Tools</p>
             <div className="flex flex-wrap">
               <img
                 className="p-1 m-2 h-24 bg-salmon rounded"
