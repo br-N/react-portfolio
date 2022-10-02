@@ -9,26 +9,24 @@ function About() {
         <h3 className="mb-8 text-[40px] text-center">1. UNIVERSITY</h3>
 
         <div className="flex flex-wrap">
-          <div className="flex flex-col mr-12 mb-8">
-            <div className="flex justify-center">
-              <img
-                className="bg-white w-80 rounded mb-3 p-3"
-                alt="Unifesp Logo"
-                src={unifesp_logo}
-              />
-            </div>
+          <div className="flex flex-col items-center mr-12 mb-8">
+            <img
+              className="bg-white w-80 rounded mb-3 p-3"
+              alt="Unifesp Logo"
+              src={unifesp_logo}
+            />
 
             <ul>
               <li className="text-center text-[24px] font-bold mb-2">
                 Federal University of São Paulo
               </li>
-              <li className="text-[18px]">
+              <li className="text-[20px]">
                 - Bachelor's Degree in Interdisciplinary Science and Technology
               </li>
-              <li className="text-[18px]">
+              <li className="text-[20px]">
                 - With emphasis in Computer Science
               </li>
-              <li className="text-[18px]">
+              <li className="text-[20px]">
                 - Scientific Initiation Scholarship (at USP)
               </li>
             </ul>
@@ -38,19 +36,21 @@ function About() {
             <p className="mb-4 text-bold text-[30px]">SOME SUBJECTS I TOOK: </p>
             <ul>
               <li className="text-[20px]">
-                - Data Structures and Algorithms I & II
+                &bull; Data Structures and Algorithms I & II
               </li>
-              <li className="text-[20px]">- Object-oriented programming</li>
               <li className="text-[20px]">
-                - Design and Analysis of Algorithms
+                &bull; Object-oriented programming
               </li>
-              <li className="text-[20px]">- Computer graphics</li>
-              <li className="text-[20px]">- Artificial Intelligence</li>
-              <li className="text-[20px]">- Computational Modeling</li>
-              <li className="text-[20px]">- Calculus I, II, III & IV</li>
-              <li className="text-[20px]">- Physics I, II & III</li>
-              <li className="text-[20px]">- Electric Circuits I & II</li>
-              <li className="text-[20px]">- Microeconomics</li>
+              <li className="text-[20px]">
+                &bull; Design and Analysis of Algorithms
+              </li>
+              <li className="text-[20px]">&bull; Computer graphics</li>
+              <li className="text-[20px]">&bull; Artificial Intelligence</li>
+              <li className="text-[20px]">&bull; Computational Modeling</li>
+              <li className="text-[20px]">&bull; Calculus I, II, III & IV</li>
+              <li className="text-[20px]">&bull; Physics I, II & III</li>
+              <li className="text-[20px]">&bull; Electric Circuits I & II</li>
+              <li className="text-[20px]">&bull; Microeconomics</li>
             </ul>
           </div>
         </div>
