@@ -23,7 +23,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex my-12">
+      <div className="flex flex-wrap mt-12 mb-24">
         <p className="flex items-center mr-8 text-[32px]">CONTACT ME:</p>
 
         <ul className="flex items-center mt-2">
@@ -48,9 +48,21 @@ function Home() {
         </ul>
       </div>
 
-      <div className="my-8">
-        <img className="" src={help} alt="Help me" />
-        <img className="" src={humanoid} alt="Humanoide" />
+      <div className="flex flex-wrap my-12">
+        <div className="flex flex-col justify-center items-center mr-8">
+          <p className="text-[30px]">Humanoid is in danger.</p>
+          <p className="text-[25px] mt-4">
+            Please, click the button below to release him.
+          </p>
+          <button className="bg-blue border rounded p-2 mt-8 mb-12 font-bold">
+            FREEDOM
+          </button>
+        </div>
+
+        <div>
+          <img className="" src={help} alt="Help me" />
+          <img className="" src={humanoid} alt="Humanoide" />
+        </div>
       </div>
     </section>
   );
