@@ -9,7 +9,8 @@ import help from "../../img/help-me.gif";
 function Home() {
   const [showHumanoid, setShowHumanoid] = useState(false);
 
-  function releaseHumanoid() {
+  function releaseHumanoid(e) {
+    e.preventDefault();
     setShowHumanoid(true);
   }
 
