@@ -1,10 +1,18 @@
 import { SiLinkedin, SiGmail, SiGithub } from "react-icons/si";
 
+import { useState } from "react";
+
 import my_photo from "../../img/me.jpg";
 import humanoid from "../../img/humanoid.gif";
 import help from "../../img/help-me.gif";
 
 function Home() {
+  const [showHumanoid, setShowHumanoid] = useState(false);
+
+  function releaseHumanoid() {
+    setShowHumanoid(true);
+  }
+
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-wrap my-12">
@@ -54,15 +62,24 @@ function Home() {
           <p className="text-[25px] mt-4">
             Please, click the button below to release him.
           </p>
-          <button className="bg-blue border rounded p-2 mt-8 mb-12 font-bold">
+          <button
+            className="bg-blue border rounded p-2 mt-8 mb-12 font-bold"
+            onClick={releaseHumanoid}
+          >
             FREEDOM
           </button>
         </div>
-
-        <div>
-          <img className="" src={help} alt="Help me" />
-          <img className="" src={humanoid} alt="Humanoide" />
-        </div>
+        {showHumanoid ? (
+          <div>
+            <img src={humanoid} alt="Humanoide" />
+          </div>
+        ) : (
+          <div className="flex flex-col">
+            <div className="bg-[#000000] h-[400px] w-[400px] border-[36px] border-white">
+              <img src={help} alt="Help me" />
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
