@@ -19,9 +19,6 @@ function Navbar() {
           <li className="mr-4">
             <Link to="/projects">Projects</Link>
           </li>
-          <li className="mr-4">
-            <Link to="/contact">Contact</Link>
-          </li>
         </ul>
       </Container>
     </nav>
