@@ -61,42 +61,6 @@ function About() {
 
         <div className="flex flex-col ml-2">
           <div className="flex flex-col">
-            <p className="text-xl font-bold">Front-end:</p>
-            <div className="flex flex-wrap">
-              <img
-                className={styles.icone}
-                alt="html5"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-              />
-              <img
-                className={styles.icone}
-                alt="css3"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-              />
-              <img
-                className={styles.icone}
-                alt="javascript"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-              />
-              <img
-                className={styles.icone}
-                alt="react"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-              />
-              <img
-                className={styles.icone}
-                alt="tailwindcss"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
-              />
-              <img
-                className={styles.icone}
-                alt="foundation"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col my-12">
             <p className="text-xl font-bold">Back-end:</p>
             <div className="flex flex-wrap">
               <img
@@ -133,6 +97,42 @@ function About() {
                 className={styles.icone}
                 alt="mysql"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col my-12">
+            <p className="text-xl font-bold">Front-end:</p>
+            <div className="flex flex-wrap">
+              <img
+                className={styles.icone}
+                alt="html5"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+              />
+              <img
+                className={styles.icone}
+                alt="css3"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+              />
+              <img
+                className={styles.icone}
+                alt="javascript"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              />
+              <img
+                className={styles.icone}
+                alt="react"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+              />
+              <img
+                className={styles.icone}
+                alt="tailwindcss"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+              />
+              <img
+                className={styles.icone}
+                alt="foundation"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
               />
             </div>
           </div>
