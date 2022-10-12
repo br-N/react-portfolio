@@ -147,6 +147,11 @@ function About() {
               />
               <img
                 className={styles.icone}
+                alt="gitlab"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg"
+              />
+              <img
+                className={styles.icone}
                 alt="git"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
               />
