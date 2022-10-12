@@ -142,6 +142,11 @@ function About() {
             <div className="flex flex-wrap">
               <img
                 className={styles.icone}
+                alt="vscode"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              />
+              <img
+                className={styles.icone}
                 alt="git"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
               />
