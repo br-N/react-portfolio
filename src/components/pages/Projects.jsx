@@ -4,9 +4,13 @@ import robot_of_love from "../../img/robot-of-love.png";
 function Projects() {
   return (
     <section className="flex flex-col items-center w-screen">
-      <div className="flex p-3 bg-blue rounded w-4/6">
+      <div className="flex shrink w-2/3 p-3 bg-blue rounded">
         <div className="flex flex-col mr-6">
-          <img className="rounded" alt="CulturaEduca" src={culturaeduca} />
+          <img
+            className="rounded w-[500px]"
+            alt="CulturaEduca"
+            src={culturaeduca}
+          />
           <p className="text-center p-1 font-bold text-[30px]">CulturaEduca</p>
         </div>
 
@@ -19,7 +23,7 @@ function Projects() {
           </p>
 
           <div className="flex flex-col mt-4">
-            <p className="font-bold text-[24px] text-center">
+            <p className="font-bold text-[24px] text-right">
               Main technologies:
             </p>
             <div className="flex flex-wrap justify-end">
@@ -47,6 +51,44 @@ function Projects() {
                 className="p-1 m-1 h-20 bg-salmon rounded"
                 alt="foundation"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex shrink w-2/3 my-12 p-3 bg-blue rounded">
+        <div className="flex flex-col mr-6">
+          <img
+            className="rounded w-[500px]"
+            alt="Robot of Love"
+            src={robot_of_love}
+          />
+          <p className="text-center p-1 font-bold text-[30px]">RobotOfLove</p>
+        </div>
+
+        <div className="flex flex-col justify-between">
+          <p className="text-[22px]">
+            Robot of Love is a bot built with Python and Selenium that likes
+            every post and follows every post owner of a specific URL, which can
+            be either a tag or a person. And user can choose if he want only to
+            like, only to follow or both.
+          </p>
+
+          <div className="flex flex-col mt-4">
+            <p className="font-bold text-[24px] text-right">
+              Main technologies:
+            </p>
+            <div className="flex flex-wrap justify-end">
+              <img
+                className="p-1 m-1 h-20 bg-salmon rounded"
+                alt="python"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+              />
+              <img
+                className="p-1 m-1 h-20 bg-salmon rounded"
+                alt="selenium"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
               />
             </div>
           </div>
