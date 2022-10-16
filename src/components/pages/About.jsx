@@ -1,3 +1,5 @@
+import { FaMapPin } from "react-icons/fa";
+
 import styles from "./About.module.css";
 
 import unifesp_logo from "../../img/unifesp_logo.png";
@@ -32,7 +34,10 @@ function About() {
             </ul>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col ml-2 p-2 rotate-3 text-bg bg-yellow">
+            <span className="flex justify-center mb-4">
+              <FaMapPin size={50} color="#D42500" />
+            </span>
             <p className="mb-4 text-bold text-[30px]">SOME SUBJECTS I TOOK: </p>
             <ul>
               <li className="text-[20px]">
