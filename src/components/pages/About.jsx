@@ -165,6 +165,11 @@ function About() {
                 alt="figma"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
               />
+              <img
+                className={styles.icone}
+                alt="selenium"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+              />
             </div>
           </div>
         </div>
