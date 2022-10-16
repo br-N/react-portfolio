@@ -4,17 +4,17 @@ import robot_of_love from "../../img/robot-of-love.png";
 function Projects() {
   return (
     <section className="flex flex-col items-center w-screen">
-      <div className="flex shrink w-2/3 p-3 bg-blue rounded">
+      <div className="flex flex-wrap max-w-4xl p-3 bg-blue rounded">
         <div className="flex flex-col mr-6">
           <img
-            className="rounded w-[500px]"
+            className="rounded w-[300px]"
             alt="CulturaEduca"
             src={culturaeduca}
           />
           <p className="text-center p-1 font-bold text-[30px]">CulturaEduca</p>
         </div>
 
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col flex-1 mt-2 justify-between">
           <p className="text-[22px]">
             Software development at CulturaEduca, a platform maintained by
             InterSCity (USP) built especially with Django Framework, which
@@ -22,7 +22,7 @@ function Projects() {
             of culture and education in cities.
           </p>
 
-          <div className="flex flex-col mt-4">
+          <div className="flex flex-col mt-6">
             <p className="font-bold text-[24px] text-right">
               Main technologies:
             </p>
@@ -57,17 +57,17 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex shrink w-2/3 my-12 p-3 bg-blue rounded">
+      <div className="flex flex-wrap max-w-4xl my-12 p-3 bg-blue rounded">
         <div className="flex flex-col mr-6">
           <img
-            className="rounded w-[500px]"
+            className="rounded w-[300px]"
             alt="Robot of Love"
             src={robot_of_love}
           />
-          <p className="text-center p-1 font-bold text-[30px]">RobotOfLove</p>
+          <p className="text-center p-1 font-bold text-[30px]">Robot of Love</p>
         </div>
 
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col flex-1 mt-2 justify-between">
           <p className="text-[22px]">
             Robot of Love is a bot built with Python and Selenium that likes
             every post and follows every post owner of a specific URL, which can
@@ -75,7 +75,7 @@ function Projects() {
             like, only to follow or both.
           </p>
 
-          <div className="flex flex-col mt-4">
+          <div className="flex flex-col mt-6">
             <p className="font-bold text-[24px] text-right">
               Main technologies:
             </p>
