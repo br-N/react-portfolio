@@ -2,7 +2,7 @@ import { SiLinkedin, SiGmail, SiGithub } from "react-icons/si";
 
 import { useState } from "react";
 
-import my_photo from "../../img/me.jpg";
+import my_photo from "../../img/my-photo.png";
 import humanoid from "../../img/humanoid.gif";
 import help from "../../img/help-me.gif";
 
@@ -17,11 +17,7 @@ function Home() {
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-wrap my-12">
-        <img
-          className="h-72 rounded-full mr-8"
-          src={my_photo}
-          alt="Breno Lambertini"
-        />
+        <img className="h-72 mb-8 mr-8" src={my_photo} alt="Breno Lambertini" />
 
         <div className="flex flex-col justify-center">
           <p className="text-[35px]">Hi!</p>
