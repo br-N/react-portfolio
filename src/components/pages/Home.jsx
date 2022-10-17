@@ -21,10 +21,8 @@ function Home() {
 
         <div className="flex flex-col justify-center">
           <p className="text-[35px]">Hi!</p>
-          <p className="text-[35px] my-4">My name is Breno Lambertini.</p>
-          <p className="font-bold text-[45px] mt-4">
-            I'm a Full Stack Developer.
-          </p>
+          <p className="text-[35px] my-4">I'm Breno Lambertini</p>
+          <p className="font-bold text-[45px] mt-4">Full Stack Developer</p>
         </div>
       </div>
 
