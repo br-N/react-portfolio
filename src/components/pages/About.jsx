@@ -1,4 +1,4 @@
-import { FaMapPin } from "react-icons/fa";
+import { BsPinAngleFill } from "react-icons/bs";
 
 import styles from "./About.module.css";
 
@@ -36,7 +36,7 @@ function About() {
 
           <div className="flex flex-col ml-2 p-2 rotate-3 text-bg bg-yellow">
             <span className="flex justify-center mb-4">
-              <FaMapPin size={50} color="#D42500" />
+              <BsPinAngleFill size={50} color="#D42500" />
             </span>
             <p className="mb-4 text-bold text-[30px]">SOME SUBJECTS I TOOK: </p>
             <ul>
