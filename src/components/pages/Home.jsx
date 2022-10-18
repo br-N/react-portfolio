@@ -1,19 +1,8 @@
 import { SiLinkedin, SiGmail, SiGithub } from "react-icons/si";
 
-import { useState } from "react";
-
 import my_photo from "../../img/my-photo.png";
-import humanoid from "../../img/humanoid.gif";
-import help from "../../img/help-me.gif";
 
 function Home() {
-  const [showHumanoid, setShowHumanoid] = useState(false);
-
-  function releaseHumanoid(e) {
-    e.preventDefault();
-    setShowHumanoid(true);
-  }
-
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-wrap mt-6 mb-12">
@@ -65,32 +54,6 @@ function Home() {
         >
           CV Download (English)
         </a>
-      </div>
-
-      <div className="flex flex-wrap my-12">
-        <div className="flex flex-col justify-center items-center mr-8">
-          <p className="text-[30px]">Humanoid is in danger.</p>
-          <p className="text-[25px] mt-4">
-            Please, click the button below to release him.
-          </p>
-          <button
-            className="bg-blue border rounded p-2 mt-8 mb-12 font-bold"
-            onClick={releaseHumanoid}
-          >
-            FREEDOM
-          </button>
-        </div>
-        {showHumanoid ? (
-          <div>
-            <img src={humanoid} alt="Humanoide" />
-          </div>
-        ) : (
-          <div className="flex flex-col">
-            <div className="bg-[#000000] h-[400px] w-[400px] border-[36px] border-white">
-              <img src={help} alt="Help me" />
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );

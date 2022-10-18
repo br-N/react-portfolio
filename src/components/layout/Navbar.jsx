@@ -19,6 +19,9 @@ function Navbar() {
           <li className="mr-4">
             <Link to="/projects">Projects</Link>
           </li>
+          <li className="mr-4">
+            <Link to="/humanoid">Save The Humanoid</Link>
+          </li>
         </ul>
       </Container>
     </nav>
