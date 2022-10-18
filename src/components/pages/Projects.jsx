@@ -91,7 +91,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex flex-wrap max-w-4xl mb-8 p-3 bg-blue rounded">
+      <div className="flex flex-wrap max-w-4xl p-3 bg-blue rounded">
         <div className="flex flex-col mr-6">
           <img className="rounded w-[250px]" alt="Portfolio" src={portfolio} />
           <p className="text-center p-1 font-bold text-[30px]">My Portfolio</p>
