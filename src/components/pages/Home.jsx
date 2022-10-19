@@ -24,17 +24,26 @@ function Home() {
               href="https://www.linkedin.com/in/brenolambertini/"
               target="_blank"
             >
-              <SiLinkedin size={60} className="hover:text-blue" />
+              <SiLinkedin
+                size={60}
+                className="hover:text-blue hover:duration-150"
+              />
             </a>
           </li>
           <li className="mx-8">
             <a href="mailto:brenobl2000@gmail.com" target="_blank">
-              <SiGmail size={60} className="hover:text-blue" />
+              <SiGmail
+                size={60}
+                className="hover:text-blue hover:duration-150"
+              />
             </a>
           </li>
           <li>
             <a href="https://github.com/br-N/" target="_blank">
-              <SiGithub size={60} className="hover:text-blue" />
+              <SiGithub
+                size={60}
+                className="hover:text-blue hover:duration-150"
+              />
             </a>
           </li>
         </ul>
