@@ -19,7 +19,7 @@ function Humanoid() {
       </p>
 
       <button
-        className="bg-blue w-[120px] border rounded p-2 mt-8 mb-12 font-bold"
+        className="bg-yellow text-bg w-[150px] border rounded text-[22px] p-2 mt-8 mb-12 font-bold hover:scale-125 hover:duration-150"
         onClick={releaseHumanoid}
       >
         FREEDOM
