@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import humanoid from "../../img/humanoid.gif";
-import help from "../../img/help-me.gif";
+import save_humanoid from "../../img/save-humanoid.gif";
 
 function Humanoid() {
   const [showHumanoid, setShowHumanoid] = useState(false);
@@ -20,19 +20,19 @@ function Humanoid() {
 
       <button
         className="bg-yellow text-bg w-[150px] border rounded text-[22px] p-2 mt-8 mb-12 font-bold hover:scale-125 hover:duration-150"
+        style={{
+          backgroundColor: showHumanoid ? "#D42500" : "",
+          color: showHumanoid ? "yellow" : "",
+        }}
         onClick={releaseHumanoid}
       >
-        FREEDOM
+        {showHumanoid ? "RUN !!!" : "FREEDOM"}
       </button>
 
       {showHumanoid ? (
         <img src={humanoid} alt="Humanoide" />
       ) : (
-        <div className="flex flex-col">
-          <div className="bg-[#000000] h-[400px] w-[400px] border-[36px] border-white">
-            <img src={help} alt="Help me" />
-          </div>
-        </div>
+        <img src={save_humanoid} alt="Save The Humanoide" />
       )}
     </div>
   );
