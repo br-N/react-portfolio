@@ -24,17 +24,17 @@ function Projects() {
             </p>
             <div className="flex flex-wrap justify-end">
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="javascript"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               />
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="react"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
               />
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="tailwindcss"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
               />
@@ -74,22 +74,22 @@ function Projects() {
             </p>
             <div className="flex flex-wrap justify-end">
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="django"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
               />
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="postgresql"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
               />
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="javascript"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               />
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="foundation"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
               />
@@ -129,12 +129,12 @@ function Projects() {
             </p>
             <div className="flex flex-wrap justify-end">
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="python"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
               />
               <img
-                className="p-1 m-1 h-20 bg-salmon rounded hover:p-2 hover:duration-150"
+                className="p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110"
                 alt="selenium"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
               />

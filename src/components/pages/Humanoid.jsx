@@ -19,7 +19,7 @@ function Humanoid() {
       </p>
 
       <button
-        className="bg-yellow text-bg w-[150px] border rounded text-[22px] p-2 mt-8 mb-12 font-bold hover:scale-125 hover:duration-150"
+        className="bg-yellow text-bg w-[150px] border rounded text-[22px] p-2 mt-8 mb-12 font-bold transition duration-300 ease-in-out hover:scale-125"
         style={{
           backgroundColor: showHumanoid ? "#D42500" : "",
           color: showHumanoid ? "yellow" : "",
