@@ -13,12 +13,12 @@ function Navbar() {
   return (
     <nav className="mb-8 p-1 bg-blue">
       <Container>
-        <p className="font-cinzel font-extrabold text-[24px] ml-8">
+        <p className="ml-8 font-cinzel font-extrabold text-[24px]">
           <Link to="/">Breno Lambertini</Link>
         </p>
 
-        <ul className="flex flex-wrap text-[18px]">
-          <li className="mr-8">
+        <ul className="flex flex-wrap gap-8 mr-8 text-[18px]">
+          <li>
             <Link to="/">
               <div className="flex items-center">
                 <AiOutlineHome size={24} className="mr-1" />
@@ -26,7 +26,7 @@ function Navbar() {
               </div>
             </Link>
           </li>
-          <li className="mr-8">
+          <li>
             <Link to="/about">
               <div className="flex items-center">
                 <AiOutlineInfoCircle size={24} className="mr-1" />
@@ -34,7 +34,7 @@ function Navbar() {
               </div>
             </Link>
           </li>
-          <li className="mr-8">
+          <li>
             <Link to="/projects">
               <div className="flex items-center">
                 <AiOutlineTool size={24} className="mr-1" />
@@ -42,7 +42,7 @@ function Navbar() {
               </div>
             </Link>
           </li>
-          <li className="mr-8">
+          <li>
             <Link to="/humanoid">
               <div className="flex items-center">
                 <AiOutlineHourglass size={24} className="mr-1" />
