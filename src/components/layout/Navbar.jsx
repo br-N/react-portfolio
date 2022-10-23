@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Container from "./Container";
+import MenuItems from "./MenuItems";
 
 import {
   AiOutlineHome,
@@ -9,15 +11,29 @@ import {
   AiOutlineHourglass,
 } from "react-icons/ai";
 
+import { GiHamburgerMenu } from "react-icons/gi";
+
 function Navbar() {
+  const [active, setActive] = useState(false);
+
+  function showMenu() {
+    setActive(!active);
+  }
+
   return (
     <nav className="mb-8 p-1 bg-blue">
       <Container>
-        <p className="ml-8 font-cinzel font-extrabold text-[24px]">
+        <p className="font-cinzel font-extrabold text-[24px]">
           <Link to="/">Breno Lambertini</Link>
         </p>
 
-        <ul className="flex flex-wrap gap-8 mr-8 text-[18px]">
+        <GiHamburgerMenu
+          size={28}
+          className="md:hidden cursor-pointer"
+          onClick={showMenu}
+        />
+
+        <ul className="hidden md:flex flex-wrap gap-8 text-[18px]">
           <li>
             <Link to="/">
               <div className="flex items-center">
@@ -46,12 +62,13 @@ function Navbar() {
             <Link to="/humanoid">
               <div className="flex items-center">
                 <AiOutlineHourglass size={24} className="mr-1" />
-                Save The Humanoid
+                Humanoid
               </div>
             </Link>
           </li>
         </ul>
       </Container>
+      <MenuItems active={active} />
     </nav>
   );
 }
