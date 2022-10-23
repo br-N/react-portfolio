@@ -13,7 +13,7 @@ import {
 
 import { GiHamburgerMenu } from "react-icons/gi";
 
-import { IoCloseSharp } from "react-icons/io";
+import { MdClose } from "react-icons/md";
 
 function Navbar() {
   const [active, setActive] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
         </p>
 
         {active ? (
-          <IoCloseSharp
+          <MdClose
             size={28}
             className="md:hidden cursor-pointer"
             onClick={showMenu}
