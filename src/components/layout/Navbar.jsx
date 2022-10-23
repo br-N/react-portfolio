@@ -13,6 +13,8 @@ import {
 
 import { GiHamburgerMenu } from "react-icons/gi";
 
+import { IoCloseSharp } from "react-icons/io";
+
 function Navbar() {
   const [active, setActive] = useState(false);
 
@@ -27,11 +29,19 @@ function Navbar() {
           <Link to="/">Breno Lambertini</Link>
         </p>
 
-        <GiHamburgerMenu
-          size={28}
-          className="md:hidden cursor-pointer"
-          onClick={showMenu}
-        />
+        {active ? (
+          <IoCloseSharp
+            size={28}
+            className="md:hidden cursor-pointer"
+            onClick={showMenu}
+          />
+        ) : (
+          <GiHamburgerMenu
+            size={28}
+            className="md:hidden cursor-pointer"
+            onClick={showMenu}
+          />
+        )}
 
         <ul className="hidden md:flex flex-wrap gap-8 text-[18px]">
           <li>

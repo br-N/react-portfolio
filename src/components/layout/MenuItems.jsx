@@ -11,39 +11,37 @@ function MenuItems({ active }) {
   return (
     <ul
       className={
-        active
-          ? "md:hidden flex flex-col items-center mb-2 gap-6 text-[20px]"
-          : "hidden"
+        active ? "md:hidden flex flex-col mb-2 gap-6 text-[20px]" : "hidden"
       }
     >
       <li>
         <Link to="/">
-          <div className="flex items-center">
-            <AiOutlineHome size={24} className="mr-1" />
+          <div className="flex items-center justify-center">
+            <AiOutlineHome size={24} className="mr-4" />
             Home
           </div>
         </Link>
       </li>
       <li>
         <Link to="/about">
-          <div className="flex items-center">
-            <AiOutlineInfoCircle size={24} className="mr-1" />
+          <div className="flex items-center justify-center">
+            <AiOutlineInfoCircle size={24} className="mr-4" />
             About
           </div>
         </Link>
       </li>
       <li>
         <Link to="/projects">
-          <div className="flex items-center">
-            <AiOutlineTool size={24} className="mr-1" />
+          <div className="flex items-center justify-center">
+            <AiOutlineTool size={24} className="mr-4" />
             Projects
           </div>
         </Link>
       </li>
       <li>
         <Link to="/humanoid">
-          <div className="flex items-center">
-            <AiOutlineHourglass size={24} className="mr-1" />
+          <div className="flex items-center justify-center">
+            <AiOutlineHourglass size={24} className="mr-4" />
             Humanoid
           </div>
         </Link>
