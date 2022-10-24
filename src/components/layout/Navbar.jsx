@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import Container from "./Container";
 import MenuItems from "./MenuItems";
@@ -45,36 +45,49 @@ function Navbar() {
 
         <ul className="hidden md:flex flex-wrap gap-8 text-[18px]">
           <li>
-            <Link to="/">
-              <div className="flex items-center">
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) => (isActive ? "font-bold" : undefined)}
+            >
+              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
                 <AiOutlineHome size={24} className="mr-1" />
                 Home
               </div>
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">
-              <div className="flex items-center">
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? "font-bold" : undefined)}
+            >
+              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
                 <AiOutlineInfoCircle size={24} className="mr-1" />
                 About
               </div>
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/projects">
-              <div className="flex items-center">
+            <NavLink
+              to="/projects"
+              className={({ isActive }) => (isActive ? "font-bold" : undefined)}
+            >
+              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
                 <AiOutlineTool size={24} className="mr-1" />
                 Projects
               </div>
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/humanoid">
-              <div className="flex items-center">
+            <NavLink
+              to="/humanoid"
+              className={({ isActive }) => (isActive ? "font-bold" : undefined)}
+            >
+              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
                 <AiOutlineHourglass size={24} className="mr-1" />
                 Humanoid
               </div>
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </Container>
