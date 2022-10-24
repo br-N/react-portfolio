@@ -11,12 +11,12 @@ function Home() {
         <div className="flex flex-col justify-center">
           <p className="text-[35px]">Hi!</p>
           <p className="text-[35px] my-4">I'm Breno Lambertini</p>
-          <p className="font-bold text-[45px] mt-4">Full Stack Developer</p>
+          <h2 className="font-bold text-[45px] mt-4">Full Stack Developer</h2>
         </div>
       </div>
 
       <div className="flex flex-wrap">
-        <p className="flex items-center mr-8 text-[32px]">CONTACT ME:</p>
+        <h2 className="flex items-center mr-8 text-[32px]">CONTACT ME:</h2>
 
         <ul className="flex items-center mt-2">
           <li>

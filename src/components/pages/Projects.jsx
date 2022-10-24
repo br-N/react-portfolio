@@ -8,7 +8,10 @@ function Projects() {
       <div className="flex flex-wrap max-w-4xl mb-16 p-3 bg-blue rounded">
         <div className="flex flex-col mr-6">
           <img className="rounded w-[250px]" alt="Portfolio" src={portfolio} />
-          <p className="text-center p-1 font-bold text-[30px]">My Portfolio</p>
+
+          <h2 className="text-center p-1 font-bold text-[30px]">
+            My Portfolio
+          </h2>
         </div>
 
         <div className="flex flex-col flex-1 mt-2 justify-between">
@@ -50,7 +53,10 @@ function Projects() {
             alt="CulturaEduca"
             src={culturaeduca}
           />
-          <p className="text-center p-1 font-bold text-[30px]">CulturaEduca</p>
+
+          <h2 className="text-center p-1 font-bold text-[30px]">
+            CulturaEduca
+          </h2>
         </div>
 
         <div className="flex flex-col flex-1 mt-2 justify-between">
@@ -105,7 +111,10 @@ function Projects() {
             alt="Robot of Love"
             src={robot_of_love}
           />
-          <p className="text-center p-1 font-bold text-[30px]">Robot of Love</p>
+
+          <h2 className="text-center p-1 font-bold text-[30px]">
+            Robot of Love
+          </h2>
         </div>
 
         <div className="flex flex-col flex-1 mt-2 justify-between">

@@ -13,7 +13,8 @@ function Humanoid() {
 
   return (
     <div className="flex flex-col flex-wrap items-center w-screen mt-4">
-      <p className="text-[30px]">Humanoid is in danger.</p>
+      <h2 className="text-[30px]">Humanoid is in danger.</h2>
+
       <p className="text-[25px] mt-4">
         Please, click the button below to release him.
       </p>

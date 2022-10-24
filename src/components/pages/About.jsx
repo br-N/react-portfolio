@@ -8,7 +8,7 @@ function About() {
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-col mb-16">
-        <h3 className="mb-8 text-[40px] text-center">1. UNIVERSITY</h3>
+        <h2 className="mb-8 text-[40px] text-center">1. UNIVERSITY</h2>
 
         <div className="flex flex-wrap">
           <div className="flex flex-col items-center mr-12 mb-8">
@@ -18,10 +18,11 @@ function About() {
               src={unifesp_logo}
             />
 
+            <h3 className="text-center text-[24px] font-bold mb-6">
+              Federal University of São Paulo
+            </h3>
+
             <ul>
-              <li className="text-center text-[24px] font-bold mb-6">
-                Federal University of São Paulo
-              </li>
               <li className="text-[20px]">
                 - Bachelor's Degree in Interdisciplinary Science and Technology
               </li>
@@ -38,7 +39,11 @@ function About() {
             <span className="flex justify-center mb-4">
               <BsPinAngleFill size={50} color="#D42500" />
             </span>
-            <p className="mb-4 text-bold text-[26px]">SOME SUBJECTS I TOOK: </p>
+
+            <h4 className="mb-4 text-bold text-[26px]">
+              SOME SUBJECTS I TOOK:
+            </h4>
+
             <ul>
               <li className="text-[18px]">
                 &bull; Data Structures and Algorithms I & II
@@ -62,11 +67,12 @@ function About() {
       </div>
 
       <div className="flex flex-col">
-        <h3 className="mb-6 text-[40px] text-center">2. MY SKILLS</h3>
+        <h2 className="mb-6 text-[40px] text-center">2. MY SKILLS</h2>
 
         <div className="flex flex-col ml-2">
           <div className="flex flex-col">
-            <p className="text-xl font-bold">Back-end:</p>
+            <h3 className="text-xl font-bold">Back-end:</h3>
+
             <div className="flex flex-wrap">
               <img
                 className={styles.icone}
@@ -107,7 +113,8 @@ function About() {
           </div>
 
           <div className="flex flex-col my-12">
-            <p className="text-xl font-bold">Front-end:</p>
+            <h3 className="text-xl font-bold">Front-end:</h3>
+
             <div className="flex flex-wrap">
               <img
                 className={styles.icone}
@@ -143,7 +150,8 @@ function About() {
           </div>
 
           <div className="flex flex-col">
-            <p className="text-xl font-bold">Tools:</p>
+            <h3 className="text-xl font-bold">Tools:</h3>
+
             <div className="flex flex-wrap">
               <img
                 className={styles.icone}

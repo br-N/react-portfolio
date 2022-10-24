@@ -25,9 +25,9 @@ function Navbar() {
   return (
     <nav className="mb-8 p-1 bg-blue">
       <Container>
-        <p className="font-cinzel font-extrabold text-[24px]">
+        <h1 className="font-cinzel font-extrabold text-[24px]">
           <Link to="/">Breno Lambertini</Link>
-        </p>
+        </h1>
 
         {active ? (
           <MdClose
