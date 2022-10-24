@@ -5,20 +5,20 @@ import my_photo from "../../img/my-photo.png";
 function Home() {
   return (
     <section className="flex flex-col items-center w-screen">
-      <div className="flex flex-wrap mb-16">
-        <img className="h-72 mb-8 mr-8" src={my_photo} alt="Breno Lambertini" />
+      <div className="flex flex-wrap justify-center gap-8 mb-16">
+        <img className="max-h-72" src={my_photo} alt="Breno Lambertini" />
 
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col gap-4 justify-center">
           <p className="text-[35px]">Hi!</p>
-          <p className="text-[35px] my-4">I'm Breno Lambertini</p>
+          <p className="text-[35px]">I'm Breno Lambertini</p>
           <h2 className="font-bold text-[45px] mt-4">Full Stack Developer</h2>
         </div>
       </div>
 
-      <div className="flex flex-wrap">
-        <h2 className="flex items-center mr-8 text-[32px]">CONTACT ME:</h2>
+      <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
+        <h2 className="flex items-center text-[32px]">CONTACT ME:</h2>
 
-        <ul className="flex items-center mt-2">
+        <ul className="flex flex-wrap gap-12 mt-2">
           <li>
             <a
               href="https://www.linkedin.com/in/brenolambertini/"
@@ -30,7 +30,7 @@ function Home() {
               />
             </a>
           </li>
-          <li className="mx-8">
+          <li>
             <a href="mailto:brenobl2000@gmail.com" target="_blank">
               <SiGmail
                 size={60}
@@ -49,17 +49,17 @@ function Home() {
         </ul>
       </div>
 
-      <div className="flex flex-wrap mt-12">
+      <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 mt-12 mb-4">
         <a
           href="https://drive.google.com/uc?export=download&id=1x0GN5PB8RRwtqEZ39HzAnpS9_jh6HLr8"
-          className="bg-bg border rounded w-[150px] p-1 mr-24 mb-4 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
+          className="bg-bg border rounded max-w-[150px] p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
         >
           CV Download (Português)
         </a>
 
         <a
           href="https://drive.google.com/uc?export=download&id=1hGhzYRp7Q-fhlO8kKYi7T3XnBsrsPj5e"
-          className="bg-bg border rounded w-[150px] p-1 mb-4 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
+          className="bg-bg border rounded max-w-[150px] p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
         >
           CV Download (English)
         </a>
