@@ -49,7 +49,7 @@ function Home() {
         </ul>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 mt-12 mb-4">
+      <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 mt-16 mb-4">
         <a
           href="https://drive.google.com/uc?export=download&id=1x0GN5PB8RRwtqEZ39HzAnpS9_jh6HLr8"
           className="bg-bg border rounded w-36 p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
