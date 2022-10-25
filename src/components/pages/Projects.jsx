@@ -4,24 +4,22 @@ import portfolio from "../../img/portfolio.png";
 
 function Projects() {
   return (
-    <section className="flex flex-col items-center w-screen">
-      <div className="flex flex-wrap max-w-4xl mb-16 p-3 bg-blue rounded">
-        <div className="flex flex-col mr-6">
+    <section className="flex flex-col items-center w-screen gap-16">
+      <div className="flex flex-col sm:flex-row max-w-4xl p-3 gap-6 bg-blue rounded">
+        <div className="flex flex-col justify-center items-center">
           <img className="rounded w-[250px]" alt="Portfolio" src={portfolio} />
 
-          <h2 className="text-center p-1 font-bold text-[30px]">
-            My Portfolio
-          </h2>
+          <h2 className="p-1 font-bold text-[30px]">My Portfolio</h2>
         </div>
 
-        <div className="flex flex-col flex-1 mt-2 justify-between">
+        <div className="flex flex-col flex-1 justify-between gap-6">
           <p className="text-[22px]">
             This portfolio was developed using React, a Javascript library, in
             addition to the Vite build tool. For styling, the option chosen was
             Tailwind, a CSS framework.
           </p>
 
-          <div className="flex flex-col mt-6">
+          <div className="flex flex-col">
             <p className="font-bold text-[24px] text-right">
               Main technologies:
             </p>
@@ -46,20 +44,18 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex flex-wrap max-w-4xl mb-16 p-3 bg-blue rounded">
-        <div className="flex flex-col mr-6">
+      <div className="flex flex-col sm:flex-row max-w-4xl p-3 gap-6 bg-blue rounded">
+        <div className="flex flex-col justify-center items-center">
           <img
             className="rounded w-[250px]"
             alt="CulturaEduca"
             src={culturaeduca}
           />
 
-          <h2 className="text-center p-1 font-bold text-[30px]">
-            CulturaEduca
-          </h2>
+          <h2 className="p-1 font-bold text-[30px]">CulturaEduca</h2>
         </div>
 
-        <div className="flex flex-col flex-1 mt-2 justify-between">
+        <div className="flex flex-col flex-1 justify-between gap-6">
           <p className="text-[22px]">
             Software development at CulturaEduca, a platform maintained by
             InterSCity (USP) built especially with Django Framework, which
@@ -74,7 +70,7 @@ function Projects() {
             </a>
           </p>
 
-          <div className="flex flex-col mt-6">
+          <div className="flex flex-col">
             <p className="font-bold text-[24px] text-right">
               Main technologies:
             </p>
@@ -104,20 +100,18 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex flex-wrap max-w-4xl p-3 bg-blue rounded">
-        <div className="flex flex-col mr-6">
+      <div className="flex flex-col sm:flex-row max-w-4xl p-3 gap-6 bg-blue rounded">
+        <div className="flex flex-col justify-center items-center">
           <img
             className="rounded w-[250px]"
             alt="Robot of Love"
             src={robot_of_love}
           />
 
-          <h2 className="text-center p-1 font-bold text-[30px]">
-            Robot of Love
-          </h2>
+          <h2 className="p-1 font-bold text-[30px]">Robot of Love</h2>
         </div>
 
-        <div className="flex flex-col flex-1 mt-2 justify-between">
+        <div className="flex flex-col flex-1 justify-between gap-6">
           <p className="text-[22px]">
             Robot of Love is a bot built with Python and Selenium that likes
             every post and follows every post owner of a specific URL, which can
@@ -132,7 +126,7 @@ function Projects() {
             </a>
           </p>
 
-          <div className="flex flex-col mt-6">
+          <div className="flex flex-col">
             <p className="font-bold text-[24px] text-right">
               Main technologies:
             </p>
