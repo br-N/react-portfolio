@@ -10,57 +10,45 @@ function About() {
       <div className="flex flex-col mb-16">
         <h2 className="mb-8 text-[40px] text-center">1. UNIVERSITY</h2>
 
-        <div className="flex flex-wrap">
-          <div className="flex flex-col items-center mr-12 mb-8">
+        <div className="flex flex-wrap gap-12 justify-center">
+          <div className="flex flex-col items-center mb-8">
             <img
-              className="bg-white w-80 rounded mb-3 p-3"
+              className="w-96 rounded"
               alt="Unifesp Logo"
               src={unifesp_logo}
             />
 
-            <h3 className="text-center text-[24px] font-bold mb-6">
+            <h3 className="text-center text-[24px] font-bold mt-3 mb-6">
               Federal University of São Paulo
             </h3>
 
-            <ul>
-              <li className="text-[20px]">
+            <ul className="flex flex-col text-[20px] gap-2">
+              <li>
                 - Bachelor's Degree in Interdisciplinary Science and Technology
               </li>
-              <li className="text-[20px] my-2">
-                - With emphasis in Computer Science
-              </li>
-              <li className="text-[20px]">
-                - Scientific Initiation Scholarship (at USP)
-              </li>
+              <li>- With emphasis in Computer Science</li>
+              <li>- Scientific Initiation Scholarship (at USP)</li>
             </ul>
           </div>
 
-          <div className="flex flex-col ml-2 p-2 rotate-3 text-bg bg-yellow">
-            <span className="flex justify-center mb-4">
+          <div className="flex flex-col p-2 gap-4 md:rotate-3 text-bg bg-yellow">
+            <span className="flex justify-center">
               <BsPinAngleFill size={50} color="#D42500" />
             </span>
 
-            <h4 className="mb-4 text-bold text-[26px]">
-              SOME SUBJECTS I TOOK:
-            </h4>
+            <h4 className="text-bold text-[26px]">SOME SUBJECTS I TOOK:</h4>
 
-            <ul>
-              <li className="text-[18px]">
-                &bull; Data Structures and Algorithms I & II
-              </li>
-              <li className="text-[18px]">
-                &bull; Object-oriented programming
-              </li>
-              <li className="text-[18px]">
-                &bull; Design and Analysis of Algorithms
-              </li>
-              <li className="text-[18px]">&bull; Computer graphics</li>
-              <li className="text-[18px]">&bull; Artificial Intelligence</li>
-              <li className="text-[18px]">&bull; Computational Modeling</li>
-              <li className="text-[18px]">&bull; Calculus I, II, III & IV</li>
-              <li className="text-[18px]">&bull; Physics I, II & III</li>
-              <li className="text-[18px]">&bull; Electric Circuits I & II</li>
-              <li className="text-[18px]">&bull; Microeconomics</li>
+            <ul className="text-[18px]">
+              <li>&bull; Data Structures and Algorithms I & II</li>
+              <li>&bull; Object-oriented programming</li>
+              <li>&bull; Design and Analysis of Algorithms</li>
+              <li>&bull; Computer graphics</li>
+              <li>&bull; Artificial Intelligence</li>
+              <li>&bull; Computational Modeling</li>
+              <li>&bull; Calculus I, II, III & IV</li>
+              <li>&bull; Physics I, II & III</li>
+              <li>&bull; Electric Circuits I & II</li>
+              <li>&bull; Microeconomics</li>
             </ul>
           </div>
         </div>
