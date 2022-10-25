@@ -8,7 +8,7 @@ function About() {
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-col mb-16">
-        <h2 className="mb-8 text-[40px] text-center">1. UNIVERSITY</h2>
+        <h2 className="mb-8 text-4xl text-center">1. UNIVERSITY</h2>
 
         <div className="flex flex-wrap gap-12 justify-center">
           <div className="flex flex-col items-center mb-8">
@@ -18,11 +18,11 @@ function About() {
               src={unifesp_logo}
             />
 
-            <h3 className="text-center text-[24px] font-bold mt-3 mb-6">
+            <h3 className="text-center text-2xl font-bold mt-3 mb-6">
               Federal University of São Paulo
             </h3>
 
-            <ul className="flex flex-col text-[20px] gap-2">
+            <ul className="flex flex-col text-lg gap-2">
               <li>
                 - Bachelor's Degree in Interdisciplinary Science and Technology
               </li>
@@ -36,9 +36,11 @@ function About() {
               <BsPinAngleFill size={50} color="#D42500" />
             </span>
 
-            <h4 className="text-bold text-[26px]">SOME SUBJECTS I TOOK:</h4>
+            <h4 className="text-bold text-center text-2xl">
+              SOME SUBJECTS I TOOK:
+            </h4>
 
-            <ul className="text-[18px]">
+            <ul className="text-lg">
               <li>&bull; Data Structures and Algorithms I & II</li>
               <li>&bull; Object-oriented programming</li>
               <li>&bull; Design and Analysis of Algorithms</li>
@@ -55,7 +57,7 @@ function About() {
       </div>
 
       <div className="flex flex-col">
-        <h2 className="mb-6 text-[40px] text-center">2. MY SKILLS</h2>
+        <h2 className="mb-6 text-4xl text-center">2. MY SKILLS</h2>
 
         <div className="flex flex-col ml-2">
           <div className="flex flex-col">
