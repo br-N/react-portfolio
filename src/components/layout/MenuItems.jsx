@@ -11,7 +11,7 @@ function MenuItems({ active }) {
   return (
     <ul
       className={
-        active ? "md:hidden flex flex-col mb-2 gap-6 text-[20px]" : "hidden"
+        active ? "md:hidden flex flex-col mb-2 gap-6 text-lg" : "hidden"
       }
     >
       <li>
