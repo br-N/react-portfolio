@@ -5,7 +5,7 @@ import my_photo from "../../img/my-photo.png";
 function Home() {
   return (
     <section className="flex flex-col items-center w-screen">
-      <div className="flex flex-wrap justify-center gap-8 mb-16">
+      <div className="flex flex-wrap justify-center gap-12 mb-16">
         <img className="max-h-72" src={my_photo} alt="Breno Lambertini" />
 
         <div className="flex flex-col gap-4 justify-center">
