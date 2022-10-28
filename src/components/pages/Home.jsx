@@ -1,6 +1,6 @@
 import { SiLinkedin, SiGmail, SiGithub } from "react-icons/si";
 
-import styles from "./Home.module.css";
+import styles from "./css/Home.module.css";
 
 import my_photo from "../../img/my-photo.png";
 

@@ -1,4 +1,4 @@
-import styles from "./Projects.module.css";
+import styles from "./css/Projects.module.css";
 
 import culturaeduca from "../../img/culturaeduca.png";
 import robot_of_love from "../../img/robot-of-love.png";

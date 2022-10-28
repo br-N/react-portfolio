@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import Container from "./Container";
 import MenuItems from "./MenuItems";
 
-import styles from "./Navbar.module.css";
+import styles from "./css/Navbar.module.css";
 
 import {
   AiOutlineHome,

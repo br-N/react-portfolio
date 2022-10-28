@@ -1,6 +1,6 @@
 import { BsPinAngleFill } from "react-icons/bs";
 
-import styles from "./About.module.css";
+import styles from "./css/About.module.css";
 
 import unifesp_logo from "../../img/unifesp_logo.png";
 
