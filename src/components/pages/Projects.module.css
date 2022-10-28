@@ -1,0 +1,39 @@
+.main_div {
+  @apply flex flex-col sm:flex-row max-w-4xl p-3 gap-6 bg-blue rounded;
+}
+
+.left_div {
+  @apply flex flex-col justify-center items-center;
+}
+
+.img {
+  @apply rounded w-60;
+}
+
+.title {
+  @apply font-bold text-3xl;
+}
+
+.right_div {
+  @apply flex flex-col flex-1 justify-between gap-6;
+}
+
+.text {
+  @apply text-xl;
+}
+
+.tech_div {
+  @apply flex flex-col;
+}
+
+.tech_text {
+  @apply font-semibold text-2xl text-right;
+}
+
+.skills_div {
+  @apply flex flex-wrap justify-end;
+}
+
+.skills_icon {
+  @apply p-1 m-1 h-20 bg-salmon rounded transition duration-300 ease-out hover:scale-110;
+}
