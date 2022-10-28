@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <nav className="mb-8 p-1">
       <Container>
-        <h1 className={styles.logo}>
+        <h1 className="font-cinzel font-extrabold text-xl lg:ml-4">
           <Link to="/">Breno Lambertini</Link>
         </h1>
 
@@ -39,7 +39,7 @@ function Navbar() {
           />
         )}
 
-        <ul className={styles.nav_li}>
+        <ul className="hidden md:flex flex-wrap gap-8 text-base lg:mr-4">
           <li>
             <NavLink
               to="/"

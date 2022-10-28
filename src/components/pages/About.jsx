@@ -57,7 +57,7 @@ function About() {
       </div>
 
       <div className="flex flex-col">
-        <h2 className="mb-6 text-4xl text-center">2. MY SKILLS</h2>
+        <h2 className="mb-4 text-4xl text-center">2. MY SKILLS</h2>
 
         <div className="flex flex-col ml-2">
           <div className="flex flex-col">
