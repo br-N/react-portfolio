@@ -65,37 +65,37 @@ function About() {
 
             <div className="flex flex-wrap">
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="c-lang"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="python"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="java"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="php"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="django"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="postgresql"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="mysql"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
               />
@@ -107,32 +107,32 @@ function About() {
 
             <div className="flex flex-wrap">
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="html5"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="css3"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="javascript"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="react"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="tailwindcss"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="foundation"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
               />
@@ -144,32 +144,32 @@ function About() {
 
             <div className="flex flex-wrap">
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="vscode"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="gitlab"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="git"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="docker"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="figma"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
               />
               <img
-                className={styles.icone}
+                className={styles.skill_icon}
                 alt="selenium"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
               />

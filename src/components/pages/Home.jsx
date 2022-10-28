@@ -1,5 +1,7 @@
 import { SiLinkedin, SiGmail, SiGithub } from "react-icons/si";
 
+import styles from "./Home.module.css";
+
 import my_photo from "../../img/my-photo.png";
 
 function Home() {
@@ -24,26 +26,17 @@ function Home() {
               href="https://www.linkedin.com/in/brenolambertini/"
               target="_blank"
             >
-              <SiLinkedin
-                size={60}
-                className="transition duration-300 ease-in-out hover:text-blue"
-              />
+              <SiLinkedin size={60} className={styles.contact_icon} />
             </a>
           </li>
           <li>
             <a href="mailto:brenobl2000@gmail.com" target="_blank">
-              <SiGmail
-                size={60}
-                className="transition duration-300 ease-in-out hover:text-blue"
-              />
+              <SiGmail size={60} className={styles.contact_icon} />
             </a>
           </li>
           <li>
             <a href="https://github.com/br-N/" target="_blank">
-              <SiGithub
-                size={60}
-                className="transition duration-300 ease-in-out hover:text-blue"
-              />
+              <SiGithub size={60} className={styles.contact_icon} />
             </a>
           </li>
         </ul>
@@ -52,14 +45,14 @@ function Home() {
       <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 mt-16 mb-4">
         <a
           href="https://drive.google.com/uc?export=download&id=1x0GN5PB8RRwtqEZ39HzAnpS9_jh6HLr8"
-          className="bg-bg border rounded w-36 p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
+          className={styles.cv_btn}
         >
           CV Download (Português)
         </a>
 
         <a
           href="https://drive.google.com/uc?export=download&id=1hGhzYRp7Q-fhlO8kKYi7T3XnBsrsPj5e"
-          className="bg-bg border rounded w-36 p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125"
+          className={styles.cv_btn}
         >
           CV Download (English)
         </a>
