@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+import styles from "./Navbar.module.css";
+
 import {
   AiOutlineHome,
   AiOutlineInfoCircle,
@@ -20,8 +22,8 @@ function MenuItems({ active }) {
           end
           className={({ isActive }) => (isActive ? "font-bold" : undefined)}
         >
-          <div className="flex items-center justify-center">
-            <AiOutlineHome size={24} className="mr-4" />
+          <div className={styles.menu_ul}>
+            <AiOutlineHome size={24} />
             Home
           </div>
         </NavLink>
@@ -31,8 +33,8 @@ function MenuItems({ active }) {
           to="/about"
           className={({ isActive }) => (isActive ? "font-bold" : undefined)}
         >
-          <div className="flex items-center justify-center">
-            <AiOutlineInfoCircle size={24} className="mr-4" />
+          <div className={styles.menu_ul}>
+            <AiOutlineInfoCircle size={24} />
             About
           </div>
         </NavLink>
@@ -42,8 +44,8 @@ function MenuItems({ active }) {
           to="/projects"
           className={({ isActive }) => (isActive ? "font-bold" : undefined)}
         >
-          <div className="flex items-center justify-center">
-            <AiOutlineTool size={24} className="mr-4" />
+          <div className={styles.menu_ul}>
+            <AiOutlineTool size={24} />
             Projects
           </div>
         </NavLink>
@@ -53,8 +55,8 @@ function MenuItems({ active }) {
           to="/humanoid"
           className={({ isActive }) => (isActive ? "font-bold" : undefined)}
         >
-          <div className="flex items-center justify-center">
-            <AiOutlineHourglass size={24} className="mr-4" />
+          <div className={styles.menu_ul}>
+            <AiOutlineHourglass size={24} />
             Humanoid
           </div>
         </NavLink>

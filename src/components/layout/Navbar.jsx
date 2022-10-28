@@ -4,15 +4,15 @@ import { NavLink, Link } from "react-router-dom";
 import Container from "./Container";
 import MenuItems from "./MenuItems";
 
+import styles from "./Navbar.module.css";
+
 import {
   AiOutlineHome,
   AiOutlineInfoCircle,
   AiOutlineTool,
   AiOutlineHourglass,
 } from "react-icons/ai";
-
 import { GiHamburgerMenu } from "react-icons/gi";
-
 import { MdClose } from "react-icons/md";
 
 function Navbar() {
@@ -25,33 +25,29 @@ function Navbar() {
   return (
     <nav className="mb-8 p-1">
       <Container>
-        <h1 className="font-cinzel font-extrabold text-xl lg:ml-4">
+        <h1 className={styles.logo}>
           <Link to="/">Breno Lambertini</Link>
         </h1>
 
         {active ? (
-          <MdClose
-            size={28}
-            className="md:hidden cursor-pointer"
-            onClick={showMenu}
-          />
+          <MdClose size={28} className={styles.menu_btn} onClick={showMenu} />
         ) : (
           <GiHamburgerMenu
             size={28}
-            className="md:hidden cursor-pointer"
+            className={styles.menu_btn}
             onClick={showMenu}
           />
         )}
 
-        <ul className="hidden md:flex flex-wrap gap-8 text-base lg:mr-4">
+        <ul className={styles.nav_li}>
           <li>
             <NavLink
               to="/"
               end
               className={({ isActive }) => (isActive ? "font-bold" : undefined)}
             >
-              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
-                <AiOutlineHome size={24} className="mr-1" />
+              <div className={styles.nav_ul}>
+                <AiOutlineHome size={24} />
                 Home
               </div>
             </NavLink>
@@ -61,8 +57,8 @@ function Navbar() {
               to="/about"
               className={({ isActive }) => (isActive ? "font-bold" : undefined)}
             >
-              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
-                <AiOutlineInfoCircle size={24} className="mr-1" />
+              <div className={styles.nav_ul}>
+                <AiOutlineInfoCircle size={24} />
                 About
               </div>
             </NavLink>
@@ -72,8 +68,8 @@ function Navbar() {
               to="/projects"
               className={({ isActive }) => (isActive ? "font-bold" : undefined)}
             >
-              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
-                <AiOutlineTool size={24} className="mr-1" />
+              <div className={styles.nav_ul}>
+                <AiOutlineTool size={24} />
                 Projects
               </div>
             </NavLink>
@@ -83,14 +79,15 @@ function Navbar() {
               to="/humanoid"
               className={({ isActive }) => (isActive ? "font-bold" : undefined)}
             >
-              <div className="flex items-center transition duration-150 ease-in-out hover:scale-110">
-                <AiOutlineHourglass size={24} className="mr-1" />
+              <div className={styles.nav_ul}>
+                <AiOutlineHourglass size={24} />
                 Humanoid
               </div>
             </NavLink>
           </li>
         </ul>
       </Container>
+
       <MenuItems active={active} />
     </nav>
   );
