@@ -23,7 +23,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="mb-8 p-1 bg-blue">
+    <nav className="mb-8 p-1">
       <Container>
         <h1 className="font-cinzel font-extrabold text-xl">
           <Link to="/">Breno Lambertini</Link>
