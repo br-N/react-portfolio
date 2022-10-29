@@ -1,8 +1,9 @@
 import styles from "./css/Projects.module.css";
 
+import portfolio from "../../img/portfolio.png";
 import culturaeduca from "../../img/culturaeduca.png";
 import robot_of_love from "../../img/robot-of-love.png";
-import portfolio from "../../img/portfolio.png";
+import react_project from "../../img/react-project.png";
 
 function Projects() {
   return (
@@ -128,6 +129,46 @@ function Projects() {
                 className={styles.skills_icon}
                 alt="selenium"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.main_div}>
+        <div className={styles.left_div}>
+          <img className={styles.img} alt="Portfolio" src={react_project} />
+
+          <h2 className={styles.title}>React Project</h2>
+        </div>
+
+        <div className={styles.right_div}>
+          <p className={styles.text}>
+            Project made in React whose objective is to manage projects of
+            different budgets and categories, being possible to create services
+            for each project, automatically updating the budget. It uses all
+            CRUD concepts: Create, Read, Update and Delete.{" "}
+            <a
+              className="underline"
+              href="https://github.com/br-N/curso-react-projeto"
+              target="_blank"
+            >
+              Check here!
+            </a>
+          </p>
+
+          <div className={styles.tech_div}>
+            <p className={styles.tech_text}>Main technologies:</p>
+            <div className={styles.skills_div}>
+              <img
+                className={styles.skills_icon}
+                alt="javascript"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              />
+              <img
+                className={styles.skills_icon}
+                alt="react"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
               />
             </div>
           </div>
