@@ -19,7 +19,7 @@ function About() {
             />
 
             <h3 className="text-center text-2xl font-semibold text-yellow mt-3 mb-6">
-              Federal University of São Pauloa
+              Federal University of São Paulo
             </h3>
 
             <ul className="flex flex-col text-lg gap-2">

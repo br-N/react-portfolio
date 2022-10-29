@@ -43,6 +43,7 @@ function Navbar() {
           <li>
             <NavLink
               to="/"
+              end
               className={({ isActive }) => (isActive ? "font-bold" : undefined)}
             >
               <div className={styles.nav_ul}>
