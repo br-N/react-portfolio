@@ -61,7 +61,7 @@ function About() {
 
         <div className="flex flex-col ml-2">
           <div className="flex flex-col">
-            <h3 className="text-xl font-bold">Back-end:</h3>
+            <h3 className="text-2xl font-bold">Back-end:</h3>
 
             <div className="flex flex-wrap">
               <img
@@ -103,7 +103,7 @@ function About() {
           </div>
 
           <div className="flex flex-col my-12">
-            <h3 className="text-xl font-bold">Front-end:</h3>
+            <h3 className="text-2xl font-bold">Front-end:</h3>
 
             <div className="flex flex-wrap">
               <img
@@ -140,7 +140,7 @@ function About() {
           </div>
 
           <div className="flex flex-col">
-            <h3 className="text-xl font-bold">Tools:</h3>
+            <h3 className="text-2xl font-bold">Tools:</h3>
 
             <div className="flex flex-wrap">
               <img
