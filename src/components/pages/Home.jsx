@@ -13,7 +13,9 @@ function Home() {
         <div className="flex flex-col gap-4 justify-center">
           <p className="text-4xl">Hi!</p>
           <p className="text-4xl">I'm Breno Lambertini</p>
-          <h2 className="font-bold text-5xl mt-4">Full Stack Developer</h2>
+          <h2 className="font-bold text-5xl text-yellow mt-4">
+            Full Stack Developer
+          </h2>
         </div>
       </div>
 

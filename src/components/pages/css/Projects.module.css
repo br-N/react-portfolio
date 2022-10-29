@@ -11,7 +11,7 @@
 }
 
 .title {
-  @apply font-bold text-3xl;
+  @apply font-bold text-3xl text-yellow;
 }
 
 .right_div {

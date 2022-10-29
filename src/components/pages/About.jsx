@@ -8,7 +8,7 @@ function About() {
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-col mb-16">
-        <h2 className="mb-8 text-4xl text-center">1. UNIVERSITY</h2>
+        <h2 className="mb-8 text-4xl text-center text-yellow">1. UNIVERSITY</h2>
 
         <div className="flex flex-wrap gap-12 justify-center">
           <div className="flex flex-col items-center mb-8">
@@ -18,7 +18,7 @@ function About() {
               src={unifesp_logo}
             />
 
-            <h3 className="text-center text-2xl font-bold mt-3 mb-6">
+            <h3 className="text-center text-2xl text-yellow font-bold mt-3 mb-6">
               Federal University of São Paulo
             </h3>
 
@@ -57,7 +57,7 @@ function About() {
       </div>
 
       <div className="flex flex-col">
-        <h2 className="mb-4 text-4xl text-center">2. MY SKILLS</h2>
+        <h2 className="mb-4 text-4xl text-center text-yellow">2. MY SKILLS</h2>
 
         <div className="flex flex-col ml-2">
           <div className="flex flex-col">

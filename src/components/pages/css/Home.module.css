@@ -1,7 +1,7 @@
 .contact_icon {
-  @apply transition duration-300 ease-in-out hover:text-blue;
+  @apply transition duration-300 ease-in-out hover:text-salmon;
 }
 
 .cv_btn {
-  @apply bg-bg border rounded w-36 p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125;
+  @apply bg-blue border rounded w-36 p-1 font-bold text-center transition duration-300 ease-in-out hover:scale-125;
 }

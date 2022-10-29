@@ -13,17 +13,16 @@ function Humanoid() {
 
   return (
     <div className="flex flex-col flex-wrap items-center w-screen mt-4">
-      <h2 className="text-3xl">Humanoid is in danger.</h2>
+      <h2 className="text-3xl text-yellow">Humanoid is in danger.</h2>
 
       <p className="text-2xl mt-4">
         Please, click the button below to release him.
       </p>
 
       <button
-        className="bg-yellow text-bg w-36 border rounded text-2xl p-3 mt-8 mb-12 font-bold transition duration-300 ease-in-out hover:scale-125"
+        className="bg-blue w-36 border rounded text-2xl p-3 mt-8 mb-12 font-bold transition duration-300 ease-in-out hover:scale-125"
         style={{
           backgroundColor: showHumanoid ? "#D42500" : "",
-          color: showHumanoid ? "yellow" : "",
         }}
         onClick={releaseHumanoid}
       >
