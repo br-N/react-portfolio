@@ -27,7 +27,7 @@ function About() {
                 - Bachelor's Degree in Interdisciplinary Science and Technology
               </li>
               <li>- With emphasis in Computer Science</li>
-              <li>- Scientific Initiation Scholarship (at USP)</li>
+              <li>- Scientific Initiation Scholarship at USP</li>
             </ul>
           </div>
 
