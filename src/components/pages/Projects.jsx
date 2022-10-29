@@ -17,9 +17,9 @@ function Projects() {
 
         <div className={styles.right_div}>
           <p className={styles.text}>
-            This portfolio was developed using React, a Javascript library, in
-            addition to the Vite build tool. For styling, the option chosen was
-            Tailwind, a CSS framework.
+            This portfolio was developed from scratch using React, a Javascript
+            library, in addition to the Vite build tool. For styling, the option
+            chosen was Tailwind, a CSS framework.
           </p>
 
           <div className={styles.tech_div}>
@@ -144,7 +144,7 @@ function Projects() {
 
         <div className={styles.right_div}>
           <p className={styles.text}>
-            Project made in React whose objective is to manage projects of
+            Project developed in React whose objective is to manage projects of
             different budgets and categories, being possible to create services
             for each project, automatically updating the budget. It uses all
             CRUD concepts: Create, Read, Update and Delete.{" "}
