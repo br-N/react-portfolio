@@ -19,7 +19,6 @@ function MenuItems({ active }) {
       <li>
         <NavLink
           to="/"
-          end
           className={({ isActive }) => (isActive ? "font-bold" : undefined)}
         >
           <div className={styles.menu_ul}>
