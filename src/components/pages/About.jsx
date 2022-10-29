@@ -31,7 +31,7 @@ function About() {
             </ul>
           </div>
 
-          <div className="flex flex-col p-2 gap-4 md:rotate-3 text-bg bg-yellow">
+          <div className="flex flex-col p-2 gap-4 md:rotate-3 text-black bg-yellow">
             <span className="flex justify-center">
               <BsPinAngleFill size={50} color="#D42500" />
             </span>
