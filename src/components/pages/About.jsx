@@ -18,7 +18,7 @@ function About() {
               src={unifesp_logo}
             />
 
-            <h3 className="text-center text-2xl text-yellow font-bold mt-3 mb-6">
+            <h3 className="text-center text-2xl font-semibold text-yellow mt-3 mb-6">
               Federal University of São Paulo
             </h3>
 
