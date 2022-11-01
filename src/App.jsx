@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -12,19 +13,25 @@ import Background from "./components/layout/Background";
 
 function App() {
   return (
-    <Router>
+    <>
+      <Router>
+        <Navbar />
+
+        <Container>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/humanoid" element={<Humanoid />} />
+          </Routes>
+        </Container>
+
+        <Footer />
+      </Router>
+
       <Background />
-      <Navbar />
-      <Container>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/humanoid" element={<Humanoid />} />
-        </Routes>
-      </Container>
-      <Footer />
-    </Router>
+      <Analytics />
+    </>
   );
 }
 
