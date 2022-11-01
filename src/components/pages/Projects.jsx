@@ -19,7 +19,14 @@ function Projects() {
           <p className={styles.text}>
             This portfolio was developed from scratch using React, a Javascript
             library, in addition to the Vite build tool. For styling, the option
-            chosen was Tailwind, a CSS framework.
+            chosen was Tailwind, a CSS framework.{" "}
+            <a
+              className="underline"
+              href="https://github.com/br-N/react-portfolio"
+              target="_blank"
+            >
+              Check here!
+            </a>
           </p>
 
           <div className={styles.tech_div}>
