@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -25,7 +24,6 @@ function App() {
         </Routes>
       </Container>
       <Footer />
-      <Analytics />
     </Router>
   );
 }
