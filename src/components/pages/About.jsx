@@ -59,50 +59,8 @@ function About() {
       <div className="flex flex-col">
         <h2 className="mb-4 text-4xl text-center text-yellow">2. MY SKILLS</h2>
 
-        <div className="flex flex-col ml-2">
+        <div className="flex flex-col ml-2 gap-12">
           <div className="flex flex-col">
-            <h3 className="text-2xl font-bold">Back-end:</h3>
-
-            <div className="flex flex-wrap">
-              <img
-                className={styles.skill_icon}
-                alt="c-lang"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="python"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="java"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="php"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="django"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="postgresql"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="mysql"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col my-12">
             <h3 className="text-2xl font-bold">Front-end:</h3>
 
             <div className="flex flex-wrap">
@@ -135,6 +93,72 @@ function About() {
                 className={styles.skill_icon}
                 alt="foundation"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/foundation/foundation-original-wordmark.svg"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col">
+            <h3 className="text-2xl font-bold">Back-end:</h3>
+
+            <div className="flex flex-wrap">
+              <img
+                className={styles.skill_icon}
+                alt="c-lang"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="python"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="java"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="php"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="django"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
+              />
+
+              <img
+                className={styles.skill_icon}
+                alt="nodejs"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+              />
+
+              <img
+                className={styles.skill_icon}
+                alt="expressjs"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col">
+            <h3 className="text-2xl font-bold">Databases:</h3>
+
+            <div className="flex flex-wrap">
+              <img
+                className={styles.skill_icon}
+                alt="postgresql"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="mysql"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="mongodb"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
               />
             </div>
           </div>
