@@ -46,14 +46,14 @@ function Home() {
 
       <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 mt-16 mb-4">
         <a
-          href="https://drive.google.com/uc?export=download&id=100-_r7nGRbZcpWJ3jTF2x7HMqxHghCHL"
+          href="https://drive.google.com/uc?export=download&id=1b0Z3-WrHmWUj1Pw9K3TVZFTfePG8TUp0"
           className={styles.cv_btn}
         >
           CV Download (Português)
         </a>
 
         <a
-          href="https://drive.google.com/uc?export=download&id=1YHHVpNyfbTORXh5sIzFC0q16fD-PISAC"
+          href="https://drive.google.com/uc?export=download&id=16bGppDEoDWGksgqis02oQPBWlCOVgwxo"
           className={styles.cv_btn}
         >
           CV Download (English)
