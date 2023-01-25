@@ -8,12 +8,10 @@ import Humanoid from "./components/pages/Humanoid";
 import Container from "./components/layout/Container";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-import Background from "./components/layout/Background";
 
 function App() {
   return (
     <Router>
-      <Background />
       <Navbar />
       <Container>
         <Routes>

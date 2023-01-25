@@ -9,7 +9,7 @@ module.exports = {
       },
     },
     colors: {
-      black: "#121619",
+      black: "#121212",
       white: "#f8efe8",
       salmon: "#ec6161",
       yellow: "#f1ce73",
