@@ -81,8 +81,24 @@ function About() {
               />
               <img
                 className={styles.skill_icon}
+                alt="typescript"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
                 alt="react"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="angular"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original-wordmark.svg"
+              />
+
+              <img
+                className={styles.skill_icon}
+                alt="bootstrap"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
               />
               <img
                 className={styles.skill_icon}
@@ -108,8 +124,8 @@ function About() {
               />
               <img
                 className={styles.skill_icon}
-                alt="python"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+                alt="c++"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
               />
               <img
                 className={styles.skill_icon}
@@ -123,20 +139,75 @@ function About() {
               />
               <img
                 className={styles.skill_icon}
+                alt="python"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
                 alt="django"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
               />
-
               <img
                 className={styles.skill_icon}
                 alt="nodejs"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
               />
-
               <img
                 className={styles.skill_icon}
                 alt="expressjs"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="adonisjs"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original-wordmark.svg"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col">
+            <h3 className="text-2xl font-bold">Tools:</h3>
+
+            <div className="flex flex-wrap">
+              <img
+                className={styles.skill_icon}
+                alt="vscode"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="git"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="docker"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="figma"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="selenium"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="pandas"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="numpy"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="opengl"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg"
               />
             </div>
           </div>
@@ -159,43 +230,6 @@ function About() {
                 className={styles.skill_icon}
                 alt="mongodb"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col">
-            <h3 className="text-2xl font-bold">Tools:</h3>
-
-            <div className="flex flex-wrap">
-              <img
-                className={styles.skill_icon}
-                alt="vscode"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="gitlab"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="git"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="docker"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="figma"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="selenium"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
               />
             </div>
           </div>
