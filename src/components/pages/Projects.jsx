@@ -125,15 +125,15 @@ function Projects() {
             website similar to Instagram, in which it is possible to share
             moments having the name of the moment, a description and an image.
             Moments are stored in a relational database (SQLite), using an
-            RESTful API built in AdonisJS{" "}
+            RESTful API built in AdonisJS (
             <a
               className="underline"
               href="https://github.com/br-N/api-rest-adonisjs"
               target="_blank"
             >
-              (Check here!)
+              Check here!
             </a>
-            . Furthermore, it is allowed to edit the data of each moment or
+            ) . Furthermore, it is allowed to edit the data of each moment or
             delete it. The moments are shown on the Home page, and it is also
             possible to add comments to the moments, with the user name and the
             comment itself as fields, and they are added to the database as
