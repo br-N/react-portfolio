@@ -19,7 +19,7 @@
 }
 
 .text {
-  @apply text-xl;
+  @apply text-justify text-xl;
 }
 
 .tech_div {
