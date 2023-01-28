@@ -133,7 +133,7 @@ function Projects() {
             >
               Check here!
             </a>
-            ) . Furthermore, it is allowed to edit the data of each moment or
+            ). Furthermore, it is allowed to edit the data of each moment or
             delete it. The moments are shown on the Home page, and it is also
             possible to add comments to the moments, with the user name and the
             comment itself as fields, and they are added to the database as
