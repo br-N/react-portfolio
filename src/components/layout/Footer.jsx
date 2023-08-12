@@ -3,7 +3,7 @@ function Footer() {
     <footer className="flex items-center justify-center mt-12 p-2 text-base">
       <p>
         Designed and developed by{" "}
-        <span className="font-semibold">Breno Lambertini</span> &copy; 2022
+        <span className="font-semibold">Breno Lambertini</span> &copy; 2023
       </p>
     </footer>
   );
