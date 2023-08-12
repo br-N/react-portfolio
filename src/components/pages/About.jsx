@@ -10,7 +10,7 @@ function About() {
       <div className="flex flex-col mb-16">
         <h2 className="mb-8 text-4xl text-center text-yellow">1. UNIVERSITY</h2>
 
-        <div className="flex flex-wrap gap-12 justify-center">
+        <div className="flex flex-wrap gap-44 justify-center">
           <div className="flex flex-col items-center mb-8">
             <img
               className="w-96 rounded"
@@ -23,10 +23,8 @@ function About() {
             </h3>
 
             <ul className="flex flex-col text-lg gap-2">
-              <li>
-                - Bachelor's Degree in Interdisciplinary Science and Technology
-              </li>
-              <li>- With emphasis in Computer Science</li>
+              <li>- Bachelor of Science and Technology</li>
+              <li>- Emphasis in Computer Science</li>
               <li>- Scientific Initiation Scholarship at USP</li>
             </ul>
           </div>
