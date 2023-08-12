@@ -94,7 +94,16 @@ function About() {
                 alt="angular"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original-wordmark.svg"
               />
-
+              <img
+                className={styles.skill_icon}
+                alt="vuejs"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="vuetify"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg"
+              />
               <img
                 className={styles.skill_icon}
                 alt="bootstrap"
@@ -119,13 +128,18 @@ function About() {
             <div className="flex flex-wrap">
               <img
                 className={styles.skill_icon}
-                alt="c-lang"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                alt="postgresql"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
               />
               <img
                 className={styles.skill_icon}
-                alt="c++"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                alt="mysql"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="mongodb"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
               />
               <img
                 className={styles.skill_icon}
@@ -162,6 +176,16 @@ function About() {
                 alt="adonisjs"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original-wordmark.svg"
               />
+              <img
+                className={styles.skill_icon}
+                alt="c-lang"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="c++"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+              />
             </div>
           </div>
 
@@ -181,13 +205,28 @@ function About() {
               />
               <img
                 className={styles.skill_icon}
+                alt="aws"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
                 alt="docker"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
               />
               <img
                 className={styles.skill_icon}
-                alt="figma"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                alt="jest"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="npm"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              />
+              <img
+                className={styles.skill_icon}
+                alt="yarn"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
               />
               <img
                 className={styles.skill_icon}
@@ -209,27 +248,10 @@ function About() {
                 alt="opengl"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg"
               />
-            </div>
-          </div>
-
-          <div className="flex flex-col">
-            <h3 className="text-2xl font-bold">Databases:</h3>
-
-            <div className="flex flex-wrap">
               <img
                 className={styles.skill_icon}
-                alt="postgresql"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="mysql"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="mongodb"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                alt="figma"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
               />
             </div>
           </div>
