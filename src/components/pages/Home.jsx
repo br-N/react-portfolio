@@ -37,7 +37,7 @@ function Home() {
             </a>
           </li>
           <li>
-            <a href="https://github.com/br-N/" target="_blank">
+            <a href="https://github.com/brenolambertini/" target="_blank">
               <SiGithub size={60} className={styles.contact_icon} />
             </a>
           </li>
