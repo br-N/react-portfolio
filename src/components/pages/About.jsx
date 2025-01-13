@@ -26,6 +26,7 @@ function About() {
               <li>- Bachelor of Science and Technology</li>
               <li>- Emphasis in Computer Science</li>
               <li>- Scientific Initiation Scholarship at USP</li>
+              <li>- Over 3 years of proven experience</li>
             </ul>
           </div>
 

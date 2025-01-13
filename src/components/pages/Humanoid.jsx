@@ -23,6 +23,7 @@ function Humanoid() {
         className="bg-blue w-36 border rounded text-2xl p-3 mt-8 mb-12 font-bold transition duration-150 ease-in-out hover:scale-125"
         style={{
           backgroundColor: showHumanoid ? "#D42500" : "",
+          pointerEvents: showHumanoid ? "none" : "auto"
         }}
         onClick={releaseHumanoid}
       >
